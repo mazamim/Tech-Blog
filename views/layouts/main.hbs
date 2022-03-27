@@ -34,16 +34,29 @@
   <body>
 
 <div class="ui inverted menu navbar">
-  <a href="/" class="active item">
+  <a href="/" class="item">
     Home
   </a>
   <a href="/dashboard" class="item">
     Dashboard
   </a>
     {{#if logged_in}}
+
+<div class="right menu">
+ 
+
   <a class="item" id="logout">
-    Logout
+Logout
   </a>
+ 
+
+
+
+
+
+
+</div>
+
 
   {{else}}
   <a href="/login" class="item">
