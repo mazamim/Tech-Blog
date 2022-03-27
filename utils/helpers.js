@@ -1,5 +1,3 @@
-const store = require("store2");
-
 
 module.exports = {
 
@@ -16,26 +14,7 @@ module.exports = {
     return date.toLocaleDateString();
 },
 
-  // count_comments: async(id) => {
-  //   const response = await fetch(`api/recipes/${id}`)
 
-  //   if (response.ok){
-  //     const recipe = await response.json();
-  //     return recipe.comments.length
-  //   }
-
-  // }
-
-
-//   count_comments: async(myarray) => {
-//  if( myarray.length > 0){
-//    return myarray.length
-//  }
-//  else{
-//    return '0'
-//  }
-
-//   }
 
 
 }
