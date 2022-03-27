@@ -1,0 +1,32 @@
+[
+    {
+        "user_id": "1",
+        "post_id": "1",
+        "description": "Great!"
+    },
+    {
+        "user_id": "1",
+        "post_id": "1",
+        "description": "Excellent work"
+    },
+    {
+        "user_id": "2",
+        "post_id": "1",
+        "description": "Good"
+    },
+    {
+        "user_id": "2",
+        "post_id": "3",
+        "description": "Nice job"
+    },
+    {
+        "user_id": "1",
+        "post_id": "3",
+        "description": "Great Work"
+    },
+    {
+        "user_id": "1",
+        "post_id": "1",
+        "description": "Thanks for your content"
+    }
+]

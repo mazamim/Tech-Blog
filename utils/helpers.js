@@ -11,6 +11,11 @@ module.exports = {
     }
   },
 
+  format_date: (date) => {
+    // Format date as MM/DD/YYYY
+    return date.toLocaleDateString();
+},
+
   // count_comments: async(id) => {
   //   const response = await fetch(`api/recipes/${id}`)
 

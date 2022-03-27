@@ -1,0 +1,55 @@
+
+
+
+<div class="ui items">
+  <div class="item">
+    <div class="content">
+      <a class="header" href="/posts/{{id}}" >{{title}}</a>
+      <div class="description">
+        <p> {{description}}</p>
+             
+      </div>
+      <div class="extra">
+        <i class="green check icon"></i>
+        121 Comments
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="ui comments">
+  <h3 class="ui dividing header">Comments</h3>
+
+   {{#each comments as |comment|}}
+
+  <div class="comment">
+ 
+    <div class="content">
+      <a class="author">{{user.name}}</a>
+      <div class="metadata">
+        <span class="date">{{format_date date_created}}</span>
+      </div>
+      <div class="text">
+         {{description}}
+      </div>
+ 
+    </div>
+  </div>
+
+ {{/each}}
+  <form class="ui reply form" id="submitcomment">
+    <div class="field">
+      <textarea id="comments"></textarea>
+    </div>
+   
+
+ <button class="ui blue labeled submit icon button" id="update-post" type="submit">
+     <i class="icon edit"></i>Add Comment</button>
+
+
+  </form>
+</div>
+
+<script src="/js/postDetails.js"></script>
