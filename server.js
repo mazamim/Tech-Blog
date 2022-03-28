@@ -4,6 +4,7 @@ const session = require('express-session');
 const {engine,create} = require('express-handlebars');
 const routes = require('./routes');
 const helpers = require('./utils/helpers');
+const cors = require('cors');
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
@@ -30,7 +31,7 @@ app.engine("hbs", engine({
   helpers:helpers
 
 }));
-
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
