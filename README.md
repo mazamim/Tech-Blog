@@ -18,9 +18,19 @@ This app is CMS-style blog site similar to a Wordpress site, where developers ca
   
   Below the link for the screen shots of working App:-
   
-![11](https://user-images.githubusercontent.com/53158763/156685511-e06a15b7-8a1c-4367-8f73-da9546608067.jpg)
+![1](https://user-images.githubusercontent.com/53158763/160280945-c3f9c8dd-9d96-4011-a913-e8778ccb11d6.jpg)
 
-  
+![2](https://user-images.githubusercontent.com/53158763/160280952-1dab6c29-2085-4452-b2bc-24d4ffd68b84.jpg)
+
+![3](https://user-images.githubusercontent.com/53158763/160280954-a49d51b2-e43e-4046-9fb4-0aab0b8e8395.jpg)
+
+![4](https://user-images.githubusercontent.com/53158763/160280959-e157a2e4-219c-40d5-b6f2-913eede9e404.jpg)
+
+![5](https://user-images.githubusercontent.com/53158763/160280963-5ff8592e-8bf6-41d1-9dc0-da8631db2686.jpg)
+
+![6](https://user-images.githubusercontent.com/53158763/160280968-3afb537f-87d5-473d-b3fe-341f5f7aace5.jpg)
+
+
   ## Credits
     🏆 mysql2 https://www.npmjs.com/package/mysql2r 🏆 sequelize https://sequelize.org/  🏆 Express https://expressjs.com/  🏆 Handlebars https://handlebarsjs.com/installation/
 
